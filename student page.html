@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Student Registration Form</title>
+</head>
+<style>
+    #mt-10{
+        background-color: navajowhite;
+        box-sizing: border-box;
+    }
+</style>
+<body><div id="mt-10">
+    <div class="structure">
+    <div class="main_heading">
+      <h1 class="heading">Student Registration Form</h1>
+            </div>
+            <form>
+              <div>
+                <div class="label_section">
+                  <label for="fname">Firstname </label>
+                </div><br>
+                <input
+                  type="text"
+                  class="input_section"
+                  name="fname"
+                  placeholder="Firstname"
+                  required
+                /> 
+              </div><br>
+              <div>
+                <div class="label_section">
+                  <label for="mname">Middlename:</label>
+                </div>
+                <input
+                  type="text"
+                  class="input_section"
+                  name="mname"
+                  placeholder="Middlename"
+                  required
+                />
+              </div><br>
+              <div>
+                <div class="label_section">
+                  <label for="lname">Lastname: </label>
+                </div>
+                <input
+                  type="text"
+                  class="input_section"
+                  name="lname"
+                  placeholder="Lastname"
+                  required
+                />
+              </div><br>
+              <div class="label_section">
+                <label for="course">Course :</label>
+                <select name="course" id="course">
+                  <option value="course">Course</option>
+                  <option value="B.A">B.A</option>
+                  <option value="B.Com">B.Com</option>
+                  <option value="B.Sc">B.Sc</option>
+                  <option value="BBA">BBA</option>
+                </select>
+              </div><br>
+              <div>
+                <div class="gender label_section"><label>Gender:</label></div>
+                <input type="radio" name="gender" value="male" checked />
+                <label for="male" class="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" />
+                <label for="other">Other </label>
+              </div>
+              <br>
+              <div>
+                <div class="label_section">
+                  <label for="phone">Phone:</label>
+                </div><br>
+                <input type="tel" class="input_section" name="phone" value="+91" />
+              </div>
+              <br>
+              <div class="tel">
+                <input
+                  type="number"
+                  class="input_section"
+                  name="phone"
+                  id="number"
+                  placeholder="Phone no."
+                  required
+                />
+              </div>
+              <br>
+              <div>
+                <div class="label_section">
+                  <label for="address"> Current Address:</label>
+                </div>
+                <textarea
+                  placeholder="Current Address"
+                  rows="6"
+                  cols="6"
+                  class="input_section"
+                  role="textbox"
+                  required
+                ></textarea>
+              </div>
+              <div>
+                <div class="label_section">
+                  <label for="email"><b> Email</b> </label>
+                </div>
+                <input
+                  type="email"
+                  class="input_section"
+                  name="email"
+                  placeholder="Enter Email"
+                  required
+                />
+              </div>
+              <div>
+                <div class="label_section">
+                  <label for="password"><b>Password</b> </label>
+                </div>
+                <input
+                  type="password"
+                  class="input_section"
+                  name="pwd"
+                  placeholder="Enter Password"
+                  required
+                />
+        </div>
+    <div>
+            <div class="label_section">
+                  <label for="password"><b>Re-type Password</b> </label>
+        </div>
+                <input
+                  type="password"
+                  class="input_section"
+                  name="retypepwd"
+                  placeholder="Retype Password"
+                  required
+                />
+              </div>
+              <div>
+                <input type="submit" value="Register" class="submit_button" />
+              </div>
+            </form>
+          </div>
+</body>
+</html>
